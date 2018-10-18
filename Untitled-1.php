@@ -1,0 +1,1 @@
+SELECT t.ID as ref, t.type as name, t.time, t2.time AS returntime FROM officetimings t INNER JOIN officetimings t2 ON t.ID=t2.typeid WHERE t.type!='backtoseat'

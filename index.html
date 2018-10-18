@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form id="loginForm" action="index.php" method="post">
+        <input type="text" name="username" value="" placeholder="Enter username here" required><br>
+        <input type="text" name="password" value="" placeholder="Enter password here" required><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="submit" name="cancel" value="cancel">
+
+    </form>
+</body>
+</html>
+
+<?php 
+session_start();
+include_once('connect.php');
+if(isset($_POST['submit'])){
+    if(isset($_POST['username'] && $_POST['password'])){
+        header("location:routine.php");
+    }
+}
+?>

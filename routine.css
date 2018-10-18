@@ -1,0 +1,57 @@
+#logoutBtn {
+    float: right;
+    position: relative;
+    margin-right: 25px;
+}
+#headerBtn{
+    margin-right: 10px;
+}
+
+#u1,
+#ps1,
+#s1,
+#c1 {
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    width: 100%;
+}
+.center {
+    margin: auto;
+    margin-top: 150px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px;
+}
+/*
+#welcomeNoteDiv {
+    float: right;
+    position: relative;
+    margin-right: 5px;
+}
+*/
+button,input:not(#u1, #ps1) {
+    height: 40px;
+    padding: 6px;
+    text-transform:capitalize;   
+}
+#addButtonForm {
+    text-align: right;
+}
+.fitcontent {
+    white-space: nowrap;
+    width: 1%;
+}
+header {
+    padding: 10px;
+    background-color: lightgray;
+    margin-bottom: 30px;
+}
+.viewBtnForm{
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
